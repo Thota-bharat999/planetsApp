@@ -1,0 +1,21 @@
+.plants-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  min-height: 100vh;
+  padding: 30px;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .plants-container {
+    padding: 40px;
+  }
+}
+.plants-heading {
+  font-family: 'Roboto';
+  color: #05acff;
+  font-size: 54px;
+  font-weight: bold;
+  text-align: center;
+}
